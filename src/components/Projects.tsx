@@ -105,7 +105,7 @@ export const Projects = () => {
 
                     {/* Action buttons */}
                     <div className="flex gap-3">
-                      <Button variant="hero" size="sm" asChild>
+                      <Button variant="default" size="sm" asChild>
                         <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                           <ExternalLink className="w-4 h-4" />
                           Ver projeto

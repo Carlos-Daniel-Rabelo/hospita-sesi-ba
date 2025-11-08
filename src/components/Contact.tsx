@@ -104,7 +104,7 @@ export const Contact = () => {
                   
                   <div className="space-y-3">
                     <Button 
-                      variant="hero" 
+                      variant="default" 
                       className="w-full group"
                       size="lg"
                       asChild
@@ -116,7 +116,7 @@ export const Contact = () => {
                     </Button>
                     
                     <Button 
-                      variant="outline-glow" 
+                      variant="outline" 
                       className="w-full"
                       size="lg"
                       asChild

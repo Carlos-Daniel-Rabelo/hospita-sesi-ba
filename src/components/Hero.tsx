@@ -38,7 +38,7 @@ export const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button 
-              variant="hero" 
+              variant="default" 
               size="lg"
               onClick={scrollToContact}
               className="group"
@@ -47,7 +47,7 @@ export const Hero = () => {
               <ArrowRight className="group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button 
-              variant="outline-glow" 
+              variant="outline" 
               size="lg"
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
             >

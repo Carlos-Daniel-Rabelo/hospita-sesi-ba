@@ -8,49 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Tech Dark Portfolio Design System */
-    --background: 220 26% 8%;
-    --foreground: 210 40% 98%;
+    /* Hospital Institutional Design System */
+    --background: 0 0% 100%;
+    --foreground: 210 40% 10%;
 
-    --card: 220 20% 12%;
-    --card-foreground: 210 40% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 40% 10%;
 
-    --popover: 220 20% 12%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 40% 10%;
 
-    /* Tech gradient: blue to purple */
-    --primary: 250 95% 65%;
-    --primary-foreground: 210 40% 98%;
+    /* Medical blue - trust and professionalism */
+    --primary: 207 90% 54%;
+    --primary-foreground: 0 0% 100%;
     
-    /* Darker card variant */
-    --secondary: 220 18% 15%;
-    --secondary-foreground: 210 40% 98%;
+    /* Light gray for secondary elements */
+    --secondary: 210 17% 95%;
+    --secondary-foreground: 210 40% 10%;
 
     /* Muted backgrounds */
-    --muted: 220 15% 18%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 210 17% 95%;
+    --muted-foreground: 215 16% 47%;
 
-    /* Cyan neon accent */
-    --accent: 180 100% 50%;
-    --accent-foreground: 220 26% 8%;
+    /* Health green accent */
+    --accent: 142 76% 36%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 220 15% 20%;
-    --input: 220 15% 18%;
-    --ring: 250 95% 65%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 207 90% 54%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
     /* Custom gradient tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(250 95% 65%), hsl(280 90% 60%));
-    --gradient-accent: linear-gradient(90deg, hsl(180 100% 50%), hsl(200 100% 55%));
-    --gradient-subtle: linear-gradient(180deg, hsl(220 20% 12%), hsl(220 26% 8%));
+    --gradient-primary: linear-gradient(135deg, hsl(207 90% 54%), hsl(207 90% 61%));
+    --gradient-accent: linear-gradient(90deg, hsl(142 76% 36%), hsl(142 76% 43%));
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 17% 98%));
     
-    /* Glow effects */
-    --glow-primary: 0 0 40px hsl(250 95% 65% / 0.3);
-    --glow-accent: 0 0 30px hsl(180 100% 50% / 0.4);
+    /* Subtle shadows for clean design */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
     
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
